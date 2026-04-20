@@ -1,0 +1,272 @@
+[
+  {
+    "category": "ai",
+    "title": {
+      "en": "AIBazaar - AI Price Prediction System",
+      "ja": "AIBazaar - AI価格予測システム"
+    },
+    "description": {
+      "en": "AI-driven price intelligence platform combining data collection, forecasting models, and decision-focused analytics for better purchasing timing.",
+      "ja": "データ収集・予測モデル・分析可視化を統合し、購入タイミング判断を支援するAI価格インテリジェンス基盤。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Users lacked clear visibility into price trends and buying windows.",
+        "ja": "価格推移と買い時を判断する可視性が不足していました。"
+      },
+      "solution": {
+        "en": "Built one pipeline for scraping, forecasting, and dashboard analytics.",
+        "ja": "収集・予測・可視化を一体化したパイプラインを実装しました。"
+      },
+      "impact": {
+        "en": "Delivered a reusable architecture for AI-assisted pricing decisions.",
+        "ja": "AI価格判断に再利用可能な構成を確立しました。"
+      }
+    },
+    "tech": ["Python", "React", ".NET", "SQL Server", "LSTM"],
+    "image": "/images/projects/shopping-dashboard.png"
+  },
+  {
+    "category": "ai",
+    "title": {
+      "en": "Medical Representative AI Assistant",
+      "ja": "医療MR向けAIアシスタント"
+    },
+    "description": {
+      "en": "Domain-focused assistant prototype for medical representative workflows, designed to validate retrieval-oriented answer quality and practical usage flow.",
+      "ja": "医療MR業務向けに、検索活用型回答品質と実務導線を検証するためのドメイン特化アシスタント試作。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Domain users needed faster access to trustworthy answers.",
+        "ja": "業務担当者が信頼できる回答へ素早く到達できませんでした。"
+      },
+      "solution": {
+        "en": "Designed retrieval-first responses with structured output and guided flow.",
+        "ja": "検索優先の回答設計と構造化出力を導入しました。"
+      },
+      "impact": {
+        "en": "Created a practical base for validating domain AI before production.",
+        "ja": "本番前にドメインAIを検証する実用基盤を整備しました。"
+      }
+    },
+    "tech": ["Python", "RAG", "FastAPI", "PostgreSQL"],
+    "image": "/images/projects/medical-ai.png"
+  },
+  {
+    "category": "ai",
+    "title": {
+      "en": "Garbage Classifier (ML + DL)",
+      "ja": "Garbage Classifier（機械学習＋深層学習）"
+    },
+    "description": {
+      "en": "Image classification project comparing classical CV + SVM and deep learning (EfficientNet-B0) in one practical evaluation workflow.",
+      "ja": "古典的CV＋SVMと深層学習（EfficientNet-B0）を同一フローで比較検証した画像分類プロジェクト。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed to compare interpretable ML and high-accuracy deep learning.",
+        "ja": "解釈性重視MLと高精度DLを比較する必要がありました。"
+      },
+      "solution": {
+        "en": "Implemented SVM and EfficientNet pipelines with one web comparison flow.",
+        "ja": "SVMとEfficientNetを同一Webフローで比較実装しました。"
+      },
+      "impact": {
+        "en": "Established a benchmark to choose models by accuracy and deployment fit.",
+        "ja": "精度と運用適合性で選べる比較基盤を確立しました。"
+      }
+    },
+    "tech": ["Python", "PyTorch", "scikit-learn", "Flask", "Computer Vision"],
+    "image": "/images/projects/garbage.png"
+  },
+  {
+    "category": "web",
+    "title": {
+      "en": "MERN Stack Front To Back",
+      "ja": "MERN Stack Front To Back"
+    },
+    "description": {
+      "en": "Full-stack social platform implementation covering authentication, profile management, posts, and comments with production-style API/state flow.",
+      "ja": "認証、プロフィール、投稿、コメントを備えたフルスタック実装。API設計と状態管理を含む本番志向の構成。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed end-to-end practice for auth, state, and API integration.",
+        "ja": "認証・状態管理・API連携の一貫実装が必要でした。"
+      },
+      "solution": {
+        "en": "Implemented JWT auth, protected routes, Redux flow, and CRUD APIs.",
+        "ja": "JWT認証、保護ルート、Redux、CRUD APIを実装しました。"
+      },
+      "impact": {
+        "en": "Strengthened full-stack delivery for production-style web products.",
+        "ja": "本番志向Web開発のフルスタック実装力を強化しました。"
+      }
+    },
+    "tech": ["MongoDB", "Express", "React", "Node.js", "Redux", "JWT"],
+    "image": "/images/projects/crudgo.png"
+  },
+  {
+    "category": "automation",
+    "title": {
+      "en": "AIProxy Integration Gateway",
+      "ja": "AIProxy 統合ゲートウェイ"
+    },
+    "description": {
+      "en": "Integration project using AIProxy to centralize model routing, retry policies, and protocol compatibility across AI application flows.",
+      "ja": "AIProxyを活用し、モデルルーティング、再試行、プロトコル互換を統合したAI運用基盤。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Direct provider coupling reduced reliability and model portability.",
+        "ja": "プロバイダー直結で信頼性と切替性が低下していました。"
+      },
+      "solution": {
+        "en": "Added AIProxy middleware for unified routing and retry handling.",
+        "ja": "AIProxy中間層で統一ルーティングと再試行を実装しました。"
+      },
+      "impact": {
+        "en": "Improved resilience and operational standardization in AI services.",
+        "ja": "AIサービス運用の耐障害性と標準化を向上しました。"
+      }
+    },
+    "tech": ["Go", "OpenAI API", "Claude API", "Gemini API", "Docker"],
+    "image": "/images/projects/aiproxy.png"
+  },
+  {
+    "category": "automation",
+    "title": {
+      "en": "FastGPT Self-Hosted Workflow Lab",
+      "ja": "FastGPT セルフホスト運用ラボ"
+    },
+    "description": {
+      "en": "Self-hosted workflow lab using FastGPT for RAG-style assistants, API integrations, and flow-based AI automation validation.",
+      "ja": "FastGPTをセルフホストし、RAG系アシスタントとフロー型自動化の検証を行う運用実装プロジェクト。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed a repeatable environment for fast AI workflow validation.",
+        "ja": "AIワークフローを素早く検証できる再現環境が必要でした。"
+      },
+      "solution": {
+        "en": "Set up self-hosted flow orchestration, model config, and ingestion pipelines.",
+        "ja": "セルフホストでフロー構成・モデル設定・取り込みを体系化しました。"
+      },
+      "impact": {
+        "en": "Reduced setup overhead and accelerated iterative AI experimentation.",
+        "ja": "初期コストを下げ、AI反復検証を高速化しました。"
+      }
+    },
+    "tech": ["Docker", "FastGPT", "RAG", "API Integration", "Workflow Orchestration"],
+    "image": "/images/projects/fastgpt.png"
+  },
+  {
+    "category": "web",
+    "title": {
+      "en": "Formation JS FullStack BNP 2017",
+      "ja": "Formation JS FullStack BNP 2017"
+    },
+    "description": {
+      "en": "Comprehensive JavaScript full-stack training repository covering Node.js, Angular, and modular application exercises in a structured curriculum.",
+      "ja": "Node.js、Angular、モジュール設計演習を体系化したJavaScriptフルスタック学習リポジトリ。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed broad full-stack foundations across frontend and backend.",
+        "ja": "フロントとバック双方の基礎実装力が必要でした。"
+      },
+      "solution": {
+        "en": "Built and organized exercises across Node.js, Angular, and modular JavaScript.",
+        "ja": "Node.js・Angular・モジュール設計の演習を体系化しました。"
+      },
+      "impact": {
+        "en": "Established a base for later product-oriented full-stack delivery.",
+        "ja": "後続のプロダクト開発につながる土台を構築しました。"
+      }
+    },
+    "tech": ["JavaScript", "Node.js", "Angular", "Modules", "Full Stack"],
+    "image": "/images/projects/node.js.png"
+  },
+  {
+    "category": "web",
+    "title": {
+      "en": "TrabajoIntegrador (PHP Web App)",
+      "ja": "TrabajoIntegrador（PHP Webアプリ）"
+    },
+    "description": {
+      "en": "Integrated PHP web application with templated pages, DB layer, and helper modules for maintainable server-side web workflows.",
+      "ja": "テンプレート、DB層、共通ヘルパーを備えたPHP統合アプリ。保守しやすいサーバーサイド構成を重視。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed a stable structure for data-backed multi-page web flows.",
+        "ja": "データ連携型の複数ページ構成を安定化する必要がありました。"
+      },
+      "solution": {
+        "en": "Implemented modular PHP layout, shared helpers, and DB-connected pages.",
+        "ja": "モジュール化PHP、共通ヘルパー、DB接続ページを実装しました。"
+      },
+      "impact": {
+        "en": "Improved maintainability and reduced coupling in server-side workflows.",
+        "ja": "サーバーサイド実装の保守性向上と結合度低減を実現しました。"
+      }
+    },
+    "tech": ["PHP", "MySQL", "HTML", "CSS", "Server-side Rendering"],
+    "image": "/images/projects/php.png"
+  },
+  {
+    "category": "automation",
+    "title": {
+      "en": "Sealos Cloud Platform Operations Study",
+      "ja": "Sealos クラウド運用検証"
+    },
+    "description": {
+      "en": "Cloud platform operations study around Kubernetes workloads, managed databases, and AI-ready infrastructure provisioning with Sealos.",
+      "ja": "Kubernetesワークロード、マネージドDB、AI実行基盤の観点でSealos運用を検証したプロジェクト。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Provisioning app/data environments quickly across teams was complex.",
+        "ja": "チーム横断での基盤立ち上げが複雑でした。"
+      },
+      "solution": {
+        "en": "Validated managed deployment and workspace operations with Kubernetes-native patterns.",
+        "ja": "Kubernetesネイティブで管理型デプロイと運用フローを検証しました。"
+      },
+      "impact": {
+        "en": "Improved readiness for reliable AI deployment and multi-service consistency.",
+        "ja": "AI配備の準備性と複数サービス運用の一貫性を向上しました。"
+      }
+    },
+    "tech": ["Kubernetes", "Docker", "Cloud Platform", "Managed Databases", "DevOps"],
+    "image": "/images/projects/devops.png"
+  },
+  {
+    "category": "automation",
+    "title": {
+      "en": "CodingDojo Multi-Stack Practice Repository",
+      "ja": "CodingDojo マルチスタック実践リポジトリ"
+    },
+    "description": {
+      "en": "Multi-language practice repository spanning C#, JavaScript, and full-stack fundamentals to strengthen implementation discipline and delivery speed.",
+      "ja": "C#・JavaScript・フルスタック基礎を横断する実践リポジトリ。実装規律と開発スピード強化を目的に運用。"
+    },
+    "caseStudy": {
+      "problem": {
+        "en": "Needed repeated drills to improve consistency across technology stacks.",
+        "ja": "技術スタック横断で実装品質を安定化する反復演習が必要でした。"
+      },
+      "solution": {
+        "en": "Built and organized exercises across backend, frontend, and language fundamentals.",
+        "ja": "バックエンド・フロント・言語基礎を横断する演習を体系化しました。"
+      },
+      "impact": {
+        "en": "Increased development fluency and reduced context-switch overhead.",
+        "ja": "開発の流暢性を高め、技術切替コストを低減しました。"
+      }
+    },
+    "tech": ["C#", "JavaScript", "Web Development", "Algorithms", "Practice Projects"],
+    "image": "/images/projects/codingdojosept2018.png"
+  }
+]

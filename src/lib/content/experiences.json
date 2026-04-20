@@ -1,0 +1,151 @@
+[
+  {
+    "title": "AI Square - AI Productivity & Content Platform",
+    "company": "AI Square",
+    "role": "Principal Software Engineer",
+    "period": "2024 - Present",
+    "location": "San Francisco, CA",
+    "description": {
+      "en": "Led production LLM features and retrieval systems, improving workflow speed by 30-40% and reducing unsupported generations by 20-30%.",
+      "ja": "本番向けLLM機能と検索基盤を主導し、業務速度を30-40%改善、未対応生成を20-30%削減。"
+    },
+    "body": {
+      "en": [
+        "Lead AI product engineering for productivity and content workflows, delivering LLM-powered features and retrieval systems for production use.",
+        "Shipped AI-assisted drafting, editing, and rewriting capabilities that improved end-user content workflow speed by 30-40%.",
+        "Designed retrieval systems for templates, support content, and internal knowledge access, improving response relevance while reducing unsupported generations by 20-30%.",
+        "Built backend orchestration and API services with Python and FastAPI, reducing integration effort by 40% and improving maintainability.",
+        "Introduced prompt evaluation/testing workflows and internal automation that reduced regressions and saved cross-functional teams 10-20 hours per month."
+      ],
+      "ja": [
+        "生産性・コンテンツ領域のAIプロダクト開発を主導し、LLM機能と検索基盤を本番環境で提供。",
+        "下書き・編集・書き換え機能を実装し、エンドユーザーのコンテンツ作業速度を30-40%向上。",
+        "テンプレート、サポート情報、社内ナレッジ向けの検索基盤を設計し、関連性向上と未対応生成20-30%削減を実現。",
+        "Python/FastAPIでバックエンド連携基盤を構築し、機能統合工数を40%削減しつつ保守性を向上。",
+        "プロンプト評価フローと業務自動化を導入し、回帰を抑制しつつ月10-20時間の作業を削減。"
+      ]
+    },
+    "repoLink": "https://github.com/famlov-dev",
+    "repoImage": "/images/projects/lethimcook.png",
+    "languages": ["python", "ts", "react", "nextjs", "node"],
+    "status": "Current"
+  },
+  {
+    "title": "LeapMind - Applied AI & NLP Systems",
+    "company": "LeapMind, Inc.",
+    "role": "Senior AI Engineer",
+    "period": "2022 - 2024",
+    "location": "Tokyo, Japan",
+    "description": {
+      "en": "Built applied AI systems for NLP use cases and improved deployment readiness, cutting integration friction by 30%.",
+      "ja": "NLP領域の実用AIシステムを構築し、運用準備を改善して統合摩擦を30%削減。"
+    },
+    "body": {
+      "en": [
+        "Built applied AI and machine learning systems for NLP-focused themes and internal engineering use cases.",
+        "Implemented APIs and service components that reduced model integration friction by 30% for engineering teams.",
+        "Evaluated transformer-based and LLM approaches to shorten technical validation cycles by 25%.",
+        "Improved training, packaging, and deployment workflows, reducing handoff time from research to engineering by 30-40%.",
+        "Supported Docker/Kubernetes-based deployment environments to improve delivery reliability."
+      ],
+      "ja": [
+        "NLP関連テーマと社内向け課題に対し、実用的なAI・機械学習システムを構築。",
+        "APIとサービスコンポーネントを実装し、モデル統合の負荷を30%削減。",
+        "Transformer/LLMの検証を進め、技術評価サイクルを25%短縮。",
+        "学習・パッケージング・デプロイ工程を改善し、研究から実装への引き継ぎ時間を30-40%短縮。",
+        "Docker/Kubernetes環境の運用を支援し、デプロイの安定性を向上。"
+      ]
+    },
+    "repoLink": "https://github.com/famlov-dev",
+    "repoImage": "/images/projects/htmlvampire.png",
+    "languages": ["python", "ts", "node", "git"],
+    "status": "Complete"
+  },
+  {
+    "title": "Tokyo Techies - Enterprise Workflow AI",
+    "company": "Tokyo Techies",
+    "role": "Full Stack AI Developer",
+    "period": "2018 - 2022",
+    "location": "Tokyo, Japan",
+    "description": {
+      "en": "Built full-stack document workflow systems that reduced manual processing by 25-35% and improved execution efficiency by 15-20%.",
+      "ja": "文書業務向けフルスタックシステムを開発し、手作業を25-35%削減、業務効率を15-20%向上。"
+    },
+    "body": {
+      "en": [
+        "Developed enterprise workflow systems for document intake, classification, extraction, and review using full-stack engineering.",
+        "Built business applications and APIs that reduced manual processing effort by 25-35%.",
+        "Implemented frontend and backend features that improved task completion efficiency by 15-20%.",
+        "Integrated machine learning capabilities into workflow systems to improve classification/extraction accuracy and reduce repetitive review.",
+        "Handled production issue investigation, fixes, and iterative enhancements for business-critical workflows."
+      ],
+      "ja": [
+        "文書受付・分類・抽出・レビューを支える業務システムをフルスタックで開発。",
+        "業務アプリとAPIを構築し、手作業工数を25-35%削減。",
+        "フロントエンドとバックエンド機能を実装し、業務タスク完了効率を15-20%向上。",
+        "機械学習機能を統合し、分類・抽出精度を高めつつ反復レビューを削減。",
+        "本番障害の調査・修正・改善を継続し、業務システムの信頼性を向上。"
+      ]
+    },
+    "repoLink": "https://github.com/famlov-dev",
+    "repoImage": "/images/projects/crudgo.png",
+    "languages": ["python", "react", "nextjs", "ts", "postgresql"],
+    "status": "Complete"
+  },
+  {
+    "title": "Yaraku - ML Research Internship",
+    "company": "Yaraku, Inc.",
+    "role": "Machine Learning Intern",
+    "period": "2017 - 2018",
+    "location": "Tokyo, Japan",
+    "description": {
+      "en": "Supported ML experimentation with reproducible analysis and improved experiment turnaround by 15-20%.",
+      "ja": "再現可能な分析基盤を整備し、機械学習実験の検証速度を15-20%改善。"
+    },
+    "body": {
+      "en": [
+        "Built Python scripts for data preparation, analysis, and model evaluation to improve experimentation throughput.",
+        "Supported feature engineering, model training, and baseline comparison across prototype themes.",
+        "Documented experiment outcomes and communicated findings to researchers/engineers for better reproducibility."
+      ],
+      "ja": [
+        "データ準備・分析・評価のPythonスクリプトを整備し、実験の進行速度を向上。",
+        "特徴量設計、学習、ベースライン比較などプロトタイプ検証を支援。",
+        "結果の文書化と共有を通じて、再現性と技術判断の質を向上。"
+      ]
+    },
+    "repoLink": "https://github.com/famlov-dev",
+    "repoImage": "/images/projects/kazanto.svg",
+    "languages": ["python", "git"],
+    "status": "Complete"
+  },
+  {
+    "title": "Tokyo Techies - Frontend Product Engineering",
+    "company": "Tokyo Techies",
+    "role": "Web Developer",
+    "period": "2016 - 2017",
+    "location": "Tokyo, Japan",
+    "description": {
+      "en": "Built user-facing frontend features and reusable components for recruiting product workflows.",
+      "ja": "採用向けプロダクトで、ユーザー向け機能と再利用可能なUIコンポーネントを開発。"
+    },
+    "body": {
+      "en": [
+        "Developed frontend functionality for recruiting and user-facing product screens.",
+        "Built reusable UI components that reduced duplicate implementation effort.",
+        "Collaborated with designers and engineers to improve usability and resolve frontend issues.",
+        "Supported release preparation, testing, and maintenance for ongoing product operations."
+      ],
+      "ja": [
+        "採用関連・ユーザー向け画面のフロントエンド機能を設計・実装。",
+        "再利用可能なUIコンポーネントを構築し、重複実装を削減。",
+        "デザイナー/エンジニアと連携し、使いやすさ向上と不具合修正を推進。",
+        "リリース準備・テスト・保守を担い、継続運用を支援。"
+      ]
+    },
+    "repoLink": "https://github.com/famlov-dev",
+    "repoImage": "/images/projects/kazyani.png",
+    "languages": ["js", "react", "ts"],
+    "status": "Complete"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "Navbar": {
+    "about": "Profile",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact",
+    "experience": "Experience"
+  },
+  "Hero": {
+    "greetings": "こんにちは - Building AI that ships.",
+    "mateus": "I'm Nakamura Kazuya,",
+    "front": "AI Product Engineer / ML Engineer,",
+    "fullstack": "8+ years in production systems.",
+    "begin": "View profile",
+    "contact": "Let's collaborate",
+    "resume": "Download resume"
+  },
+  "About": {
+    "title": "About Me",
+    "description-1": "AI Product Engineer / Machine Learning Engineer with 8+ years of experience shipping production software, ML systems, and applied AI products.",
+    "description-2": "I turn AI capabilities into scalable product features and enterprise workflows across backend, full-stack delivery, model integration, and production deployment.",
+    "description-3": "Core strengths: Python, NLP, transformers, LLMs, generative AI, retrieval systems, and workflow automation - focused on maintainable systems and measurable business impact."
+  },
+  "Skills": {
+    "title": "Skills & Credentials",
+    "subtitle": "Technical skill set aligned with production AI delivery across engineering, ML, and product workflows.",
+    "impact-1": "8+ years shipping production systems",
+    "impact-2": "End-to-end AI product delivery",
+    "impact-3": "LLM + ML + full-stack execution",
+    "impact-4": "Maintainable systems with business impact",
+    "tiers": {
+      "working": "Working",
+      "expert": "Expert",
+      "advanced": "Advanced"
+    },
+    "matrix": {
+      "title": "Capability Matrix"
+    },
+    "items": {
+      "llm": {
+        "title": "LLM & GenAI Systems",
+        "description": "Production LLM systems, retrieval workflows, and prompt design for scalable AI product features.",
+        "stack": ["LLMs", "RAG", "Prompt Engineering", "LangChain", "LlamaIndex", "LangGraph", "GPT-4o", "Claude", "Gemini", "Embeddings", "Retrieval Systems"]
+      },
+      "ml": {
+        "title": "Machine Learning",
+        "description": "Applied machine learning and transformer-based modeling for practical, deployable AI capabilities.",
+        "stack": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "NLP", "Deep Learning"]
+      },
+      "backend": {
+        "title": "Backend & APIs",
+        "description": "Backend services and API architecture for reliable production integration and AI feature orchestration.",
+        "stack": ["Python", "FastAPI", "Node.js", "REST APIs", "SQL"]
+      },
+      "frontend": {
+        "title": "Frontend Engineering",
+        "description": "Product-focused frontend delivery with reusable components and responsive user experience.",
+        "stack": ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS"]
+      },
+      "infra": {
+        "title": "Cloud & Infrastructure",
+        "description": "Cloud and infrastructure practices for dependable deployment, scaling, and operational readiness.",
+        "stack": ["Docker", "Kubernetes", "AWS", "Azure", "GCP"]
+      },
+      "database": {
+        "title": "Databases & Storage",
+        "description": "Data layer design and storage choices for AI applications and business workflow systems.",
+        "stack": ["PostgreSQL", "MongoDB", "Redis", "Supabase"]
+      },
+      "vector": {
+        "title": "Vector & Search",
+        "description": "Vector retrieval and semantic search systems for grounded, high-relevance AI responses.",
+        "stack": ["Pinecone", "Weaviate", "Qdrant", "Semantic Search", "Vector Search"]
+      },
+      "workflow": {
+        "title": "Workflow & Tooling",
+        "description": "Automation and engineering tooling to speed delivery, improve consistency, and reduce manual effort.",
+        "stack": ["Git", "GitHub Actions", "CI/CD", "n8n", "Make.com", "Zapier", "GitHub Copilot"]
+      }
+    }
+  },
+  "Education": {
+    "title": "Education",
+    "subtitle": "Formal foundation in computer science and applied systems thinking.",
+    "school": "Osaka University, Osaka, Japan",
+    "degree": {
+      "master": "Master's Degree",
+      "bachelor": "Bachelor's Degree"
+    },
+    "program": {
+      "master": "Master of Computer Science",
+      "bachelor": "Bachelor of Computer Science"
+    },
+    "period": {
+      "master": "2013 - 2015",
+      "bachelor": "2009 - 2013"
+    },
+    "focus": {
+      "title": "Professional focus",
+      "description": "Designing and shipping reliable AI products from concept to production, with strong emphasis on measurable impact, maintainable architecture, and polished user experience."
+    }
+  },
+  "Experience": {
+    "title": "Experience",
+    "description": "A concise view of production outcomes across AI product engineering roles.",
+    "view": "View details on GitHub",
+    "back": "Back to highlights",
+    "check": "Open GitHub profile",
+    "badges": {
+      "aisquare": ["30-40% faster workflows", "20-30% fewer unsupported generations", "40% lower integration effort"],
+      "leapmind": ["30% lower model integration friction", "25% faster validation cycles", "30-40% faster handoff"],
+      "tokyotechies_ai": ["25-35% less manual processing", "15-20% efficiency gain", "AI-enabled workflow systems"],
+      "yaraku": ["15-20% faster experiment turnaround", "reproducible analysis workflows"],
+      "tokyotechies_web": ["reusable UI components", "frontend reliability improvements"],
+      "default": []
+    }
+  },
+  "Projects": {
+    "title": "Projects",
+    "description": "Selected hands-on builds beyond timeline roles, focused on practical AI product delivery.",
+    "viewAll": "View all repositories",
+    "filters": {
+      "all": "All",
+      "ai": "AI",
+      "web": "Web",
+      "automation": "Automation"
+    },
+    "labels": {
+      "featured": "featured project",
+      "project": "project"
+    },
+    "actions": {
+      "loadMore": "Load more",
+      "showLess": "Show less"
+    }
+  },
+  "Contact": {
+    "journey": "Let's build dependable AI products.",
+    "yet": "From idea to production - with measurable outcomes.",
+    "follow-me": "Connect with me"
+  },
+  "ContactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "name-placeholder": "How should I address you?",
+    "email-placeholder": "How should I get in touch?",
+    "message-placeholder": "What would you like to say?",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong! Please try sending again.",
+    "captcha-error": "There was an error with the captcha. Please try again.",
+    "captcha-expired": "The captcha has expired. Please try again."
+  },
+  "Footer": {
+    "copyright": "All rights reserved.",
+    "made-with": "Crafted in Japan with",
+    "and": "using"
+  },
+  "NotFound": {
+    "title": "The path you seek does not exist.",
+    "message": "Even in endless skies, some stars are illusions. This page is one of them.",
+    "return": "Return back"
+  },
+  "ExperienceStatus": {
+    "On-hold": "On-hold",
+    "Complete": "Complete",
+    "Current": "Current",
+    "Abandoned": "Abandoned"
+  }
+}

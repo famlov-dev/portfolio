@@ -1,0 +1,172 @@
+{
+  "Navbar": {
+    "about": "プロフィール",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "education": "学歴",
+    "contact": "連絡先",
+    "experience": "実績"
+  },
+  "Hero": {
+    "greetings": "こんにちは - 実運用されるAIを構築します。",
+    "mateus": "中村 和也です、",
+    "front": "AI Product Engineer / ML Engineer、",
+    "fullstack": "実務経験8年以上。",
+    "begin": "プロフィールを見る",
+    "contact": "相談する",
+    "resume": "履歴書をダウンロード"
+  },
+  "About": {
+    "title": "私について",
+    "description-1": "AI Product Engineer / Machine Learning Engineerとして、8年以上にわたり本番向けソフトウェア、機械学習システム、実用AIプロダクトを開発してきました。",
+    "description-2": "バックエンド、フルスタック実装、モデル統合、本番デプロイまで横断し、AI技術をスケーラブルな機能と業務ワークフローに落とし込みます。",
+    "description-3": "Python、NLP、Transformer、LLM、生成AI、検索基盤、業務自動化を軸に、保守性と成果を両立するAIシステムを構築します。"
+  },
+  "Skills": {
+    "title": "スキルと資格",
+    "subtitle": "本番AIプロダクト開発に必要な技術要素を、実務スキル構成に沿って整理しています。",
+    "impact-1": "本番開発経験8年以上",
+    "impact-2": "AI機能を企画から本番まで実装",
+    "impact-3": "LLM・ML・フルスタックを横断",
+    "impact-4": "保守性と成果を両立する設計",
+    "tiers": {
+      "working": "実務対応",
+      "expert": "エキスパート",
+      "advanced": "上級"
+    },
+    "matrix": {
+      "title": "スキルマトリクス"
+    },
+    "items": {
+      "llm": {
+        "title": "LLM・生成AI",
+        "description": "本番運用を前提に、LLMアプリケーション、検索連携、プロンプト設計を実装。",
+        "stack": ["LLM", "RAG", "プロンプト設計", "LangChain", "LlamaIndex", "LangGraph", "GPT-4o", "Claude", "Gemini", "Embeddings", "検索基盤"]
+      },
+      "ml": {
+        "title": "機械学習",
+        "description": "実運用を見据えた機械学習・Transformerモデルの設計、評価、改善を担当。",
+        "stack": ["PyTorch", "TensorFlow", "scikit-learn", "Transformers", "NLP", "深層学習"]
+      },
+      "backend": {
+        "title": "バックエンド・API",
+        "description": "AI機能連携を支える、信頼性の高いバックエンド基盤とAPIを構築。",
+        "stack": ["Python", "FastAPI", "Node.js", "REST API", "SQL"]
+      },
+      "frontend": {
+        "title": "フロントエンド開発",
+        "description": "再利用性と操作性を重視した、プロダクト品質のUIを設計・実装。",
+        "stack": ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS"]
+      },
+      "infra": {
+        "title": "クラウド・インフラ",
+        "description": "デプロイの安定性と拡張性を重視したクラウド・インフラ設計。",
+        "stack": ["Docker", "Kubernetes", "AWS", "Azure", "GCP"]
+      },
+      "database": {
+        "title": "データベース・ストレージ",
+        "description": "AIアプリや業務システムに合わせたデータ層・保存設計を実施。",
+        "stack": ["PostgreSQL", "MongoDB", "Redis", "Supabase"]
+      },
+      "vector": {
+        "title": "ベクトル検索・サーチ",
+        "description": "回答品質を高めるためのベクトル検索・セマンティック検索基盤を構築。",
+        "stack": ["Pinecone", "Weaviate", "Qdrant", "セマンティック検索", "ベクトル検索"]
+      },
+      "workflow": {
+        "title": "ワークフロー・ツーリング",
+        "description": "自動化と開発基盤を整備し、開発速度と運用品質を継続的に改善。",
+        "stack": ["Git", "GitHub Actions", "CI/CD", "n8n", "Make.com", "Zapier", "GitHub Copilot"]
+      }
+    }
+  },
+  "Education": {
+    "title": "学歴",
+    "subtitle": "コンピュータサイエンスの基礎と実装力を支える学術的バックグラウンド。",
+    "school": "大阪大学（日本・大阪）",
+    "degree": {
+      "master": "修士",
+      "bachelor": "学士"
+    },
+    "program": {
+      "master": "コンピュータサイエンス修士",
+      "bachelor": "コンピュータサイエンス学士"
+    },
+    "period": {
+      "master": "2013 - 2015",
+      "bachelor": "2009 - 2013"
+    },
+    "focus": {
+      "title": "専門領域",
+      "description": "企画から本番運用まで、信頼性と成果指標を重視したAIプロダクト開発を一貫して推進します。保守性の高いアーキテクチャと体験品質を重視しています。"
+    }
+  },
+  "Experience": {
+    "title": "経験",
+    "description": "AIプロダクト開発における主要な成果を抜粋して紹介します。",
+    "view": "GitHubで詳細を見る",
+    "back": "実績一覧に戻る",
+    "check": "GitHubプロフィールを見る",
+    "badges": {
+      "aisquare": ["業務速度30-40%向上", "未対応生成20-30%削減", "統合工数40%削減"],
+      "leapmind": ["統合負荷30%削減", "検証サイクル25%短縮", "引き継ぎ時間30-40%短縮"],
+      "tokyotechies_ai": ["手作業25-35%削減", "業務効率15-20%向上", "AI業務フロー実装"],
+      "yaraku": ["実験速度15-20%改善", "再現可能な分析フロー"],
+      "tokyotechies_web": ["再利用UI構築", "フロント運用品質向上"],
+      "default": []
+    }
+  },
+  "Projects": {
+    "title": "プロジェクト",
+    "description": "職務経歴とは別に、実装力を示す実践的なAIプロダクト開発を厳選して掲載しています。",
+    "viewAll": "リポジトリ一覧を見る",
+    "filters": {
+      "all": "すべて",
+      "ai": "AI",
+      "web": "Web",
+      "automation": "自動化"
+    },
+    "labels": {
+      "featured": "注目プロジェクト",
+      "project": "プロジェクト"
+    },
+    "actions": {
+      "loadMore": "さらに表示",
+      "showLess": "折りたたむ"
+    }
+  },
+  "Contact": {
+    "journey": "信頼できる\nAIプロダクトを\n一緒に作りましょう。",
+    "yet": "企画から本番運用まで、成果につながる形で支援します。",
+    "follow-me": "こちらからご連絡ください"
+  },
+  "ContactForm": {
+    "name": "名前",
+    "email": "メール",
+    "message": "メッセージ",
+    "submit": "メッセージを送信",
+    "name-placeholder": "どのようにお呼びすればよいですか？",
+    "email-placeholder": "どの方法で連絡できますか？",
+    "message-placeholder": "伝えたいことを書いてください。",
+    "success": "メッセージを送信しました！",
+    "error": "問題が発生しました。もう一度お試しください。",
+    "captcha-error": "CAPTCHAでエラーが発生しました。もう一度お試しください。",
+    "captcha-expired": "CAPTCHAの有効期限が切れました。もう一度お試しください。"
+  },
+  "Footer": {
+    "copyright": "All rights reserved.",
+    "made-with": "日本で設計・開発",
+    "and": "技術:"
+  },
+  "NotFound": {
+    "title": "お探しのページは存在しません。",
+    "message": "果てしない空にも、幻の星があります。このページもその一つです。",
+    "return": "戻る"
+  },
+  "ExperienceStatus": {
+    "On-hold": "保留中",
+    "Complete": "完了",
+    "Current": "進行中",
+    "Abandoned": "中止"
+  }
+}
