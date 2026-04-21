@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import { SOCIAL_LINKS } from "@/lib/constants/socials";
 
-import { SiNextdotjs } from "@icons-pack/react-simple-icons";
 import { LoveIcon } from "@/components/svgs/LoveIcon";
 
 import Image from "next/image";
