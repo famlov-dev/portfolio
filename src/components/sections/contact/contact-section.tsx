@@ -61,22 +61,24 @@ export default function ContactSection() {
         <Image
           src="/images/torii.webp"
           alt="Torii Background"
-          className={cn(toriiBaseClasses, "-right-[300px]")}
+          className={cn(toriiBaseClasses, "max-w-none -right-[300px]")}
           width={900}
           height={900}
           quality={75}
-          loading="lazy"
+          style={{ width: "auto", height: "auto" }}
+          loading="eager"
           decoding="async"
         />
 
         <Image
           src="/images/torii.webp"
           alt="Torii Background (Mirrored)"
-          className={cn(toriiBaseClasses, "-left-[300px] -scale-x-[1]")}
+          className={cn(toriiBaseClasses, "max-w-none -left-[300px] -scale-x-[1]")}
           width={900}
           height={900}
           quality={75}
-          loading="lazy"
+          style={{ width: "auto", height: "auto" }}
+          loading="eager"
           decoding="async"
         />
       </m.div>

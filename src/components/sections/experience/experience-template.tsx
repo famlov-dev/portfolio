@@ -107,6 +107,7 @@ export const ExperienceTemplate = ({ ...props }: ExperienceType) => {
             loading="lazy"
             decoding="async"
             fill
+            sizes="(max-width: 1023px) 100vw, 33vw"
             className="object-cover object-left"
           />
 

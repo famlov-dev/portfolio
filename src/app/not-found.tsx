@@ -16,7 +16,9 @@ export default function NotFound() {
           width={300}
           height={300}
           quality={75}
-          className="absolute -bottom-14 left-1/2 -translate-x-[calc(50%-15px)] opacity-25 max-md:top-0"
+          style={{ width: "auto", height: "auto" }}
+          loading="eager"
+          className="absolute -bottom-14 left-1/2 max-w-none -translate-x-[calc(50%-15px)] opacity-25 max-md:top-0"
         />
 
         <Image

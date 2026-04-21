@@ -183,6 +183,7 @@ export default function ProjectsSection() {
                     src={project.image}
                     alt={project.title[locale]}
                     fill
+                    sizes="(max-width: 1023px) 100vw, 44vw"
                     className="object-cover"
                     quality={60}
                     loading="lazy"

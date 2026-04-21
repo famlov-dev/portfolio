@@ -37,6 +37,7 @@ export const ExperienceCard = ({ ...props }: ExperienceType) => {
           src={props.repoImage}
           alt={`${props.title}-image`}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 40vw, 400px"
           loading="lazy"
           decoding="async"
           quality={65}

@@ -22,7 +22,9 @@ export default function EducationSection() {
           width={900}
           height={900}
           quality={60}
-          className="absolute -left-32 bottom-0 w-[360px] opacity-6 saturate-75 dark:opacity-12 dark:saturate-100 md:w-[520px]"
+          style={{ height: "auto" }}
+          loading="eager"
+          className="absolute -left-32 bottom-0 size-[360px] max-w-none opacity-6 saturate-75 dark:opacity-12 dark:saturate-100 md:size-[520px]"
         />
         <Image
           src="/images/ink-paint.webp"
@@ -30,7 +32,7 @@ export default function EducationSection() {
           width={800}
           height={800}
           quality={60}
-          className="absolute top-8 right-0 w-[280px] opacity-7 mix-blend-multiply [mask-image:linear-gradient(to_left,transparent,black_22%,black)] dark:opacity-7 dark:mix-blend-multiply dark:brightness-88 md:-right-10 md:w-[460px]"
+          className="absolute top-8 right-0 size-[280px] opacity-7 mix-blend-multiply [mask-image:linear-gradient(to_left,transparent,black_22%,black)] dark:opacity-7 dark:mix-blend-multiply dark:brightness-88 md:-right-10 md:size-[460px]"
         />
         <div className="absolute inset-x-0 top-0 h-18 bg-gradient-to-b from-[#f0e9df] to-transparent dark:from-[#161210]" />
         <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#efe8df] via-[#efe8df]/92 to-transparent dark:from-[#18130f] dark:via-[#18130f]/92" />

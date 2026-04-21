@@ -2,8 +2,19 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ["127.0.0.1"],
   images: {
-    domains: ["images.unsplash.com", "developers.elementor.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "developers.elementor.com",
+      },
+    ],
+    qualities: [50, 55, 60, 65, 75],
   },
 };
 

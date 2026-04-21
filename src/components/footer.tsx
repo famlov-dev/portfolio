@@ -57,15 +57,6 @@ export const Footer = () => {
       <div className={cn("text-darkest/80 z-10 flex flex-1 items-center dark:text-off-w/85", "max-md:hidden")}>
         <p className="text-xs">{t("made-with")}</p>
         <LoveIcon className="text-darkest mx-1 size-5 dark:text-off-w" />
-        <p className="text-xs">{t("and")}</p>
-        <Link
-          href="https://nextjs.org/"
-          target="_blank"
-          rel="noreferrer"
-          className="ml-1.5 transition-opacity duration-200 hover:opacity-65"
-        >
-          <SiNextdotjs className="text-darkest size-5 dark:text-off-w" />
-        </Link>
       </div>
 
       {/* Copyright Section */}
